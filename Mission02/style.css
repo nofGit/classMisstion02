@@ -1,0 +1,66 @@
+body 
+{
+    background-image: url('images/400px-Political_map_of_the_World_\(November_2011\).png')
+}
+
+#header
+{
+    margin-left: 40%;
+
+}
+#actions
+{
+    margin-top: 20px;
+}
+#messageArea
+{
+    width: 50%; 
+    margin-top: 100px;
+
+}
+
+#form
+{
+    width: 350px; 
+    margin-top: 40px;
+    margin-left: 250px;
+
+}
+.generalDiv
+{
+    border: 2px solid black;
+    display: flex;
+    width: 500px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px
+}
+
+
+.flag
+{
+    margin-right: 20%;
+    width: 100px;
+    height: 150px; 
+}
+
+.flag img
+{
+   position: relative;
+   width: 200px;
+   height: 150px;
+}
+
+
+.countryDetails
+{
+    margin-left: 20px;
+    margin-right: auto;
+}
+#contentFont
+{
+    margin-top: 7px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS", cursive, sans-serif';
+
+}

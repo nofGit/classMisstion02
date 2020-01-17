@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="style.css" rel="stylesheet">
+    <title>find your country</title>
+</head>
+
+<body>
+    <h1 id="header">Find Your Country</h1>
+    
+    <div id="form">
+        <label>Search Country : </label><input placeholder="enter country name" id="countryNameInput" autofocus> 
+        <button id="getOne"  class="fa fa-search" title="Find Country"></button>
+      
+        <div id="actions">
+            <button id="getAll" title="Find All Countries">Get All</button>
+        </div>
+    </div> 
+
+<div id="messageArea"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="ajax.js"></script>
+    <script src="MyajaxFetch.js"></script>
+
+</body>
+
+</html>
